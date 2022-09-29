@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="/dist/output.css">
+
+  <!-- Font Awesome  -->
+  <script src="https://kit.fontawesome.com/61365b31e1.js" crossorigin="anonymous"></script>
+
+
+  <title>Product preview card component</title>
+
+</head>
+
+<body class="bg-cream">
+  <section class="min-h-[100vh] flex items-center">
+    <div class="container flex flex-row justify-center md:p-[20px] items-center">
+      <div class="card bg-white w-[600px] rounded-[10px] flex md:flex-col">
+        <img src="./images/image-product-desktop.jpg" alt=""
+          class="product-img w-[300px] md:w-[100%] rounded-l-[10px] md:rounded-t-[10px] md:rounded-bl-[0px] md:hidden">
+        <img src="./images/image-product-mobile.jpg" alt=""
+          class="product-img w-[300px] md:w-[100%] rounded-l-[10px] md:rounded-t-[10px] md:rounded-bl-[0px] hidden md:blocks">
+        <div class="content p-[32px]">
+          <span class="sub-title uppercase font-semibold text-[14px] tracking-[3px] text-darkGrayishBlue">Preview</span>
+          <h1 class="text-[32px] font-bold leading-[33px] mt-[10px] mb-[17px]">Gabrielle Essence Eau De Parfum</h1>
+          <p class="description text-[14px] text-darkGrayishBlue">A floral, solar and voluptuous interpretation composed
+            by Olivier
+            Polge,
+            Perfumer-Creator for the House of CHANEL.</p>
+          <div class="price-area flex flex-row items-center mt-[25px] mb-[28px]">
+            <h2 class="price font-bold text-darkCyan text-[32px] mr-[20px]">$149.99</h2>
+            <span class="price-discounted text-[12px]  block"><s>$169.99</s></span>
+          </div>
+
+          <button class="cart-btn bg-darkCyan	w-[100%] py-[14px] not-italic rounded-[5px]"><i
+              class="font-bold not-italic text-white font-[16px]"><img src="images/icon-cart.svg" alt=""
+                class="inline mr-[10px]">Add to
+              Cart</i></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
